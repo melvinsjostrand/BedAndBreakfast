@@ -504,11 +504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\melvi\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\melvi\\Documents\\GitHub\\BedAndBreakfast\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\melvi\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\melvi\\Documents\\GitHub\\BedAndBreakfast\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\melvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\melvi\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\melvi\\Documents\\GitHub\\BedAndBreakfast\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
