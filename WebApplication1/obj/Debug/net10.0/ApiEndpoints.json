@@ -2,7 +2,7 @@
   {
     "ContainingType": "bedandbreakfast1.Controllers.BookingController",
     "Method": "CreateBooking",
-    "RelativePath": "api/Booking/booking",
+    "RelativePath": "api/Booking/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,11 +26,22 @@
         "Name": "checkOut",
         "Type": "System.String",
         "IsRequired": false
-      },
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bedandbreakfast1.Controllers.BookingController",
+    "Method": "DeleteBooking",
+    "RelativePath": "api/Booking/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "HeadsUp",
-        "Type": "System.Boolean",
-        "IsRequired": false
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -43,6 +54,32 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bedandbreakfast1.Controllers.BookingController",
+    "Method": "UpdateBooking",
+    "RelativePath": "api/Booking/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "checkIn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "checkOut",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -1,4 +1,6 @@
+using bedandbreakfast1.Data;
 using bedandbreakfast1.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +9,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register the service
-builder.Services.AddSingleton<BookingService>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite("Data Source=bedandbreakfast.db"));
+
+builder.Services.AddScoped<BookingService>();
 
 var app = builder.Build();
 

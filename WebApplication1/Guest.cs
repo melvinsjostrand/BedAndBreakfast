@@ -4,6 +4,7 @@ namespace bedandbreakfast1
 {
     public class Guest
     {
+        public int Id { get; set; }
         [Required]
         [RegularExpression(@"^[\p{L}\s]{2,50}$")]
         public string Name { get; set; }
